@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Page-1</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body >
+    <form action="./page2.html" class="form form1" id="form1" >
+        <div id="page1">
+            <h2 class="heading">-:Registration Form:-</h2>
+            <label for="fname" class="label label1">First Name: </label><br>
+            <input type="text" name="fname" id="fname" placeholder="Enter your first name" required><br><br>
+            <label for="lname" class="label label2">Last Name: </label><br>
+            <input type="text" name="lname" id="lname" placeholder="Enter your last name" required><br><br>
+            <label for="email" class="label label3">Email: </label><br>
+            <input type="email" name="email" id="email" placeholder="Enter your email" required><br><br>
+            <label for="number" class="label label3">Mobile number: </label><br>
+            <input type="text" name="number" id="number" placeholder="Enter your number" required
+                pattern="[0-9]{10}"><br><br>
+            <span id="error"></span>
+            <input type="submit" value="Next >>" id="btn1" onclick="passvalue()">
+        </div>
+        </form>
+        <script src="page1.js"></script>
+</body>
+</html>

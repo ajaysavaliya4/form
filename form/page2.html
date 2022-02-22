@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Page-2</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <form action="./page3.html" class="form form2" id="form2" >
+        <div id="page2" >
+            <h2 class="heading">-:Registration Form:-</h2>
+            <label for="fname" class="label label4">Date of Birth: </label><br>
+            <input type="date" name="date" id="date" required><br><br>
+            <label for="gender" class="label label5">Gender: </label>
+            <input type="radio" name="gender" id="male" value="Male" required > Male
+            <input type="radio" name="gender" id="female" value="Female" required> Female<br><br>
+            <span id="error1"></span>
+            <input type="submit" value="Next >>" id="btn1" onclick="passvalue()">
+        </div>
+    </form>
+    <script src="./page2.js"></script>
+</body>
+</html>
